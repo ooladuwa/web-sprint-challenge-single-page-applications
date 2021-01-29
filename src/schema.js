@@ -28,4 +28,6 @@ export default yup.object().shape({
   onions: yup.boolean(),
   greenPepper: yup.boolean(),
   pineapple: yup.boolean(),
+
+  textarea: yup.string(),
 });

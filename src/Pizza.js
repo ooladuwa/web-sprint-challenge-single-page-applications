@@ -5,6 +5,8 @@ function Pizza(props) {
   return (
     <div>
       <h2>Order Success Page</h2>
+      <p>Name: {newOrder.name}</p>
+      <p>Email: {newOrder.email}</p>
     </div>
   );
 }
