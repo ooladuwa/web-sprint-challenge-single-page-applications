@@ -1,17 +1,20 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import Pizza from "./Pizza";
+import Form from "./Form";
+import Home from "./Home";
 
 function Header() {
   return (
     <div className="nav-links">
       <Link to="/">Home</Link>
       <Link to="/Form">Order Now</Link>
-      <h1>Lambda Eats(I'm the header component)</h1>
+      <h1>Mama Mia's Pizzeria</h1>
 
-      <Route exact path="/"></Route>
+      <Route exact path="/">
+        <Home />
+      </Route>
       <Route path="/Form">
-        <Pizza />
+        <Form />
       </Route>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 function Pizza() {
   return (
     <div>
-      <h1>I'm The pizza page/component</h1>
+      <h2>Order Success Page</h2>
     </div>
   );
 }
